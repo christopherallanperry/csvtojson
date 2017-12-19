@@ -6,8 +6,8 @@ This the Module 01 exercise from the edX Course 'Introduction to NodeJS'
 
 ## Installation Requirements
 1. Requires NodeJS installed
-2. Clone repository to local directory
-3. Run `npm init`
+2. Clone repository to a local directory - `git clone <PATH TO GITHUB REPO>`
+3. Run `npm init` to install dependencies
 
 ## To run the routine from the CLI
-1. `node file_converter.js`
+1. `node file_converter.js` from within the folder containing the cloned code
