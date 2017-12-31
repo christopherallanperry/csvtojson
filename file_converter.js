@@ -42,6 +42,7 @@ const downloadCSV = (url='https://prod-edxapp.edx-cdn.org/assets/courseware/v1/0
     .on("end_parsed", (jsonArrayObj) => {
       // console.log('buff is typeof: ', typeof jsonArrayObj);
       fs.writeFileSync(path.join(__dirname, folderName, 'file.json'), JSON.stringify(jsonArrayObj, null, 2));
+      // fs.writeFileSync(path.join(__dirname, folderName, 'file.json'), JSON.stringify(jsonArrayObj));
       console.log('Your download is complete, and can be found in folder: ', folderName);
     });
   })
